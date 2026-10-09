@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="description" content="You're invited to Jacky Jalaty's baby shower on Saturday, November 21.">
+        <title>Babyshower Party for Jacky and Josh!</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>Jacky's Baby Shower</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/styles.css">
+
+  <style>
+    :root {
+      --cream: #f7efe1;
+      --pink: #e99aa7;
+      --brown: #704334;
+      --gold: #c6a052;
+      --sage: #828a70;
+      --ivory: #FBF6EE;
+    --cream: #F3E9DA;
+    --blush: #EFC9C4;
+    --cocoa: #5A3B2B;
+    --caramel: #A9744F;
+    --sage: #9AA388;
+    --gold: #C6A35E;
+    }
+    </style>
+
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body class="body">
+        <main class="invitation" aria-label="Baby shower invitation">
+
+    <section class="invitation-content">
+
+      <div>
+
+        <div>
+         <img class="heart" src="heart.png" alt="Hand-drawn brown heart with gold decorative rays"/>
+        </div>
+
+
+        <svg class="arc-title" viewBox="0 -2 300 120" aria-hidden="true">
+          <path id="arc" d="M 8,110 A 400,400 0 0,1 292,110" fill="none"/>
+          <text fill="#5A3B2B" font-size="96" text-anchor="middle">
+          <textPath href="#arc" startOffset="50%" textLength="280" lengthAdjust="spacingAndGlyphs">Baby Shower</textPath>
+          </text>
+        </svg>
+
+        <p class="arc-small" aria-label="Join us to celebrate">
+          <svg class="arc-title" viewBox="0 0 300 40" aria-hidden="true">
+          <path id="arc2" d="M 48,36 A 500,500 0 0,1 252,36" fill="none"/>
+          <text fill="#5A3B2B" font-size="17" font-weight="600" text-anchor="middle">
+            <textPath href="#arc2" startOffset="50%" textLength="196" lengthAdjust="spacing">JOIN US TO CELEBRATE</textPath>
+          </text>
+          </svg>
+        </p>
+
+        <p class="subtitle">
+          <span style="color: var(--gold)">♥</span>
+          BABY GIRL
+          <span style="color: var(--gold)">♥</span>
+        </p>
+
+        <div class="divider">
+          <img class="divider" src="divider-leaves-heart.png">
+        </div>
+
+        <h2 class="guest-of-honor">Jacky & Josh Jalaty</h2>
+      </div>
+
+      <div>
+        <p class="date">
+          <span><img src="gold-strokes-right.png" class="stroke-left"/></span>
+          NOVEMBER 21
+          <span><img src="gold-strokes-left.png" class="stroke-right"/></span>
+
+        </p>
+        <p class="handwritten">Starting at noon</p>
+
+        <div class="divider">
+          <img class="divider-2" src="divider-line-pink-heart.png"/>
+        </div>
+
+        <p class="subtitle-2">
+          FOOD WILL START<br>
+          AT NOON
+        </p>
+      </div>
+
+      <div class="divider">
+        <img class="divider-3" src="divider-leaves-flower.png"/>
+      </div>
+
+      <p class="subtitle-3">Please RSVP
+        <br>
+        Will you be there?
+      </p>
+
+      <div class="rsvp-bar">
+      <div class="overlay">
+        <a class="btn btn-yes" href="sms:+18052851550?&amp;body=Hi%20Katy!%20I'll%20be%20at%20Jacky's%20baby%20shower%20on%20Nov%2021.%20My%20name%20is%20___%20and%20there%20will%20be%20___%20of%20us.">Yes, I'll be there</a>
+        <a class="btn btn-no" href="sms:+18052851550?&amp;body=Hi%20Katy!%20Sorry%2C%20I%20can't%20make%20it%20to%20Jacky's%20baby%20shower.%20My%20name%20is%20___.">Sorry, I can't make it</a>
+        <button class="info" type="button" onclick="document.getElementById('rsvp').showModal()">Gift and address info</button>
+      </div>
+    </div>
+  </main>
+
+  <dialog id="rsvp" aria-labelledby="rsvp-title">
+    <h2 id="rsvp-title">Good to know</h2>
+    <!-- Replace TIME below with the start time, like 2:00 PM -->
+    <p class="when">Saturday, November 21, at NOON<br><br> 
+      <a href=" https://maps.app.goo.gl/EDQ3coKN8r4L7TnR7" target="_blank" rel="noopener noreferrer" class="maps-button">2040 Park Drive<br>Ventura, CA 93003</a>
+    </p>
+
+    <p class="note">Your presence is gift enough, but if you would like to give a gift, 
+      they would accept gift cards or Zelle since they are moving soon! 
+      Thank you for helping them get ready for their little girl.</p>
+
+    <div>
+      <img class="z-link" src="../secret/Zelle-info.png">
+    </div>
+
+
+    <p class="fallback">On a computer? Text Katy at <a href="sms:+18052851550">(805) 285-1550</a></p>
+    <button class="close" type="button" onclick="document.getElementById('rsvp').close()">Back to the invite</button>
+  </dialog>
+
+  <script>
+    // Tapping the dark area outside the panel also closes it
+    const d = document.getElementById('rsvp');
+    d.addEventListener('click', e => { if (e.target === d) d.close(); });
+  </script>
+
+
+    </section>
+</body>
+</html>

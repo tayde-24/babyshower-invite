@@ -164,11 +164,12 @@
 
     .subtitle-3 {
       font-family: "Cormorant Garamond", serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     letter-spacing: 2px;
     line-height: 1.4;
     margin: -1px 11px 0 0px;
+    transform: scaleY(1.2);  
     }
 
     .rsvp {
@@ -208,7 +209,7 @@
   .overlay {
     pointer-events: auto;
     /* width: 100%; */
-    width: 21%;
+    width: 13%;
     max-width: 440px;
     display: grid;
     gap: 10px;
